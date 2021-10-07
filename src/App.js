@@ -34,6 +34,14 @@ function App() {
             <Home />
           </Route>
 
+             <Route exact path="/figma-Mysite-third">
+            <Home />
+          </Route>
+            
+             <Route path="/user">
+            <User />
+            </Route>
+
           {/* <Route path="/users">
             <UserList />
           </Route> */}
